@@ -6,19 +6,19 @@ Table entrees {
 
 Table vegetables {
     id int [pk]
-    type varchar
+    name varchar
     price decimal
 }
 
 Table sides {
     id int [pk]
-    title varchar
+    name varchar
     price decimal
 }
 
 Table purchases {
     id int [pk]
-    entree_id int [ref: > entrees.id]
-    vegetable_id int [ref: > vegetables.id]
-    side_id int [ref: > sides.id]
+    entreeId int [ref: > entrees.id]
+    vegetableId int [ref: > vegetables.id]
+    sideId int [ref: > sides.id]
 }

@@ -36,6 +36,12 @@ ul {
     font-size: 1rem;
 }
 
+#purchase:hover{
+    background-color: rgb(72, 46, 150);
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .header {
     display: flex;
 }
